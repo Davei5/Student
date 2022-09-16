@@ -1,0 +1,40 @@
+2022-09-16 10:38:15.942 [main] DEBUG com.kingstar.student.StudentApplication - Running with Spring Boot v2.5.0, Spring v5.3.7
+2022-09-16 10:41:07.864 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student WHERE gra_number = ? and status = '1' limit ?,?
+2022-09-16 10:41:07.883 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==> Parameters: GZ001(String), 0(Long), 2(Long)
+2022-09-16 10:41:07.901 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - <==      Total: 2
+2022-09-16 10:41:07.906 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==>  Preparing: select count(1) from student WHERE gra_number = ? and status = '1'
+2022-09-16 10:41:07.907 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==> Parameters: GZ001(String)
+2022-09-16 10:41:07.908 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - <==      Total: 1
+2022-09-16 10:44:20.405 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student WHERE gra_number = ? and status = '1' limit ?,?
+2022-09-16 10:44:20.426 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==> Parameters: GZ001(String), 0(Long), 2(Long)
+2022-09-16 10:44:20.445 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - <==      Total: 2
+2022-09-16 10:44:20.451 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==>  Preparing: select count(1) from student WHERE gra_number = ? and status = '1'
+2022-09-16 10:44:20.451 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==> Parameters: GZ001(String)
+2022-09-16 10:44:20.452 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - <==      Total: 1
+2022-09-16 11:12:39.914 [http-nio-8080-exec-4] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student where stu_number = ? and status = '1'
+2022-09-16 11:12:39.932 [http-nio-8080-exec-4] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==> Parameters: swagger-resources(String)
+2022-09-16 11:12:39.948 [http-nio-8080-exec-4] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - <==      Total: 0
+2022-09-16 11:13:04.705 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student where stu_number = ? and status = '1'
+2022-09-16 11:13:04.706 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==> Parameters: swagger-resources(String)
+2022-09-16 11:13:04.706 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - <==      Total: 0
+2022-09-16 11:13:17.381 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student where stu_number = ? and status = '1'
+2022-09-16 11:13:17.381 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - ==> Parameters: swagger-resources(String)
+2022-09-16 11:13:17.382 [http-nio-8080-exec-3] DEBUG c.k.student.mapper.StudentMapper.selectStuByNumber - <==      Total: 0
+2022-09-16 13:18:25.882 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student WHERE gra_number = ? and status = '1' limit ?,?
+2022-09-16 13:18:25.937 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==> Parameters: GZ001(String), 0(Long), 2(Long)
+2022-09-16 13:18:25.958 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - <==      Total: 2
+2022-09-16 13:18:25.964 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==>  Preparing: select count(1) from student WHERE gra_number = ? and status = '1'
+2022-09-16 13:18:25.964 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==> Parameters: GZ001(String)
+2022-09-16 13:18:25.965 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - <==      Total: 1
+2022-09-16 13:23:06.925 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student WHERE gra_number = ? and status = '1' limit ?,?
+2022-09-16 13:23:06.944 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==> Parameters: GZ001(String), 0(Long), 2(Long)
+2022-09-16 13:23:06.962 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectStuList - <==      Total: 2
+2022-09-16 13:23:06.968 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==>  Preparing: select count(1) from student WHERE gra_number = ? and status = '1'
+2022-09-16 13:23:06.968 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==> Parameters: GZ001(String)
+2022-09-16 13:23:06.969 [http-nio-8080-exec-2] DEBUG c.k.student.mapper.StudentMapper.selectTotal - <==      Total: 1
+2022-09-16 13:27:41.685 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==>  Preparing: select id,stu_number,stu_name,sex,birthday,gra_number,gra_name,create_time,update_time,status from student WHERE gra_number = ? and status = '1' limit ?,?
+2022-09-16 13:27:41.707 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectStuList - ==> Parameters: GZ001(String), 0(Long), 2(Long)
+2022-09-16 13:27:41.726 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectStuList - <==      Total: 2
+2022-09-16 13:27:41.732 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==>  Preparing: select count(1) from student WHERE gra_number = ? and status = '1'
+2022-09-16 13:27:41.732 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectTotal - ==> Parameters: GZ001(String)
+2022-09-16 13:27:41.733 [http-nio-8080-exec-1] DEBUG c.k.student.mapper.StudentMapper.selectTotal - <==      Total: 1
